@@ -1,0 +1,82 @@
+body{
+	background: #c1bdba;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.form{
+	background: #24333c;
+	padding: 40px;
+  	max-width:600px;
+  	margin:40px auto;
+ 	border-radius:1.5px;
+}
+.tab{
+	background: #435359;
+	display: flex;
+	list-style-type: none;
+	margin-left: 0; 
+    padding-left: 0;
+}
+.signup,.login{
+	width: 50%;
+	text-decoration: none;
+	color: #94b0a4;
+	text-align: center;
+	padding:10px;
+}
+.login:hover{
+	background: rgb(20, 143, 110);
+	color: #fff;
+}
+.signup:hover{
+	background: rgb(20, 143, 110);
+	color: #fff;
+}
+h2{
+	color:#fff;
+	padding: 10px;
+	text-align: center;
+	font-weight: 300;
+}
+.name_block{
+	display: flex;
+	justify-content: space-between
+}
+#fName,#lName{
+	width: 49%;
+	padding: 10px 0;
+	text-align: center;
+	background: #24333c;
+	color: #94b0a4;
+	border: 1.5px solid #94b0a4;
+	margin: 10px 0; 
+}
+#email,#password{
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	background: #24333c;
+	color: #94b0a4;
+	border: 1.5px solid #94b0a4;
+	margin: 10px 0;
+}
+.button-block {
+	display:block;
+	width:100%;
+	color: #fff;
+	background: #1ab188;
+	font-size: 30px;
+	padding: 10px;
+	font-weight: 600;
+	order: 1.5px solid #1ab188;
+}
+.button-block:hover{
+	color: #fff 0.9;
+	background: rgba(26,177,136,0.8);
+	font-size: 30px;
+	padding: 10px;
+	font-weight: 600;
+	order: 1.5px solid #1ab188;
+	cursor: pointer;
+}
